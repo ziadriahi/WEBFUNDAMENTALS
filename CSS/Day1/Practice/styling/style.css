@@ -1,0 +1,22 @@
+h1{
+    background-color: black;
+    color:white;
+    text-align: left;
+    font-style: normal;
+}
+span{
+    color:aqua;
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    background-color: dodgerblue;
+    color:black;
+    text-align: right;
+    text-decoration: underline;
+    font-style: normal;
+}

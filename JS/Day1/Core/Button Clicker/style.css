@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.top{
+    width: 800px;
+    background-color: #CCCCCC;
+    margin: 0 auto;
+}
+
+.nav{
+    width : 800px;
+    color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    margin-left: 20px;
+}
+
+.nav-body {
+    width : 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btn-login{
+    height: 35px;
+    width: 100px;
+    margin-right: 20px;
+    background-color: #2B78E4;
+    color:white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+#search{
+    width: 250px;
+    height: 20px;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.col-2{
+    flex:2;
+}
+.col{
+    flex: 1;
+}
+
+.ninja-def{
+    margin: 20px 20px 20px 0px;
+    border : 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ninja-def-title{
+    margin: 20px;
+}
+
+.ninja-def-details{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.ninja-y-def{
+    margin: 20px 0px;
+    border: 2px solid black;
+}
+
+.ninja-y-def > p{
+    margin : 10px;
+    font-size: x-large;
+}
+
+#btn-add{
+    width:80%;
+    margin:0px 20px 20px 20px;
+    background-color: #93C47D;
+    color:#000000;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+#btn-like{
+    width: 100%;
+    background-color: #FFD966;
+    color: #000000;
+    font-size: 14px;
+    box-shadow: 5px 5px #000000;
+}

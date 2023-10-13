@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.top{
+    width: 800px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    
+}
+
+.head-title{
+      
+    width : 800px;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+h1{
+    margin-left: 20px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.container-title{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:800px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+
+.col{
+    flex:1;
+}
+
+.col-2{
+    flex:2;
+}
+
+.profile{
+    border: 2px solid #333;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+.user{
+    border: 2px solid #333;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.head-user{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user p{
+    margin-left: 20px;
+}
+
+#btn-like{
+    background-color: #ffd966;
+    padding: 5px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <header>
+        <h1>DojoWeather</h1>
+        
+            <ul>
+                <li><a href="#" onclick="message()">Burbank</a></li>
+                <li><a href="#" onclick="message()">Chicago</a></li>
+                <li><a href="#" onclick="message()">Dallas</a></li>
+            </ul>
+        
+    </header>
+    <main>
+        <div class="main-header">
+            <h2>San Jose</h2>      
+            <div class="select-temp">
+                <p>show temperature in </p>
+                <select name="nat-degre" id="nat-degre" onchange="change(this)">
+                    <option class="unity" value="Celsus">°C</option>
+                    <option class="unity" value="Farenheit">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="day">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="today image">
+                <p>some rain</p>
+                <div class="min-max">
+                    <p class="max"><span id="max1">24</span>°</p>  
+                    <p class="min"><span id="min1">18</span>°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="tomorrow image">
+                <p>some sun</p>
+                <div class="min-max">
+                    <p class="max"><span id="max2">27</span>°</p>  
+                    <p class="min"><span id="min2">19</span>°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="Friday image">
+                <p>some clouds</p>
+                <div class="min-max">
+                    <p class="max"><span id="max3">21</span>°</p>  
+                    <p class="min"><span id="min3">16</span>°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="Saturday image">
+                <p>some sun</p>
+                <div class="min-max">
+                    <p class="max"><span id="max4">26</span>°</p>  
+                    <p class="min"><span id="min4">21</span>°</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer" id="main-footer">
+            <img src="assets/cookie.png" alt="image cookie">
+            <div class="main-footer-content">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more ...</a></p>           
+            </div>
+            <button id="Accept" onclick="hide()">I Accept</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
